@@ -1,0 +1,30 @@
+DROP TABLE products;
+
+CREATE TABLE products (
+	id INTEGER NOT NULL,
+	pname VARCHAR(50),
+	price INTEGER,
+	image VARCHAR(50),
+	PRIMARY KEY (id)
+) ;
+
+INSERT INTO Products VALUES (1001, 'Emma Tub Armchair', 170, 'emma-tub-armchair-1.jpg');
+INSERT INTO products VALUES (1002, 'Spencer Swivel Chair', 199, 'spencer-swivel-chair-2.jpg');
+INSERT INTO Products VALUES (1003, 'Carter Tub Chair', 169, 'carter-tub-chair-1.jpg');
+INSERT into Products values (1004, 'Jazz Armchair', 349, 'jazz-armchair-2.jpg');
+insert into Products VALUES (1005, 'Geko Single Bed Trundle', 69, 'gecko-single-bed-trundle-1.jpg');
+insert into Products VALUES (1006, 'Bingo Single Bed', 69, 'bingo-single-bed-1.jpg');
+insert into Products VALUES (1007, 'Zac Single Bed', 99, 'zac-single-bed-1.jpg');
+insert into Products VALUES (1008, 'My First Toddler Bed', 129, 'my-first-toddler-bed-1,jpg');
+insert into Products VALUES (1009, 'Host Try Table', 29, 'host-tray-table-1.jpg');
+insert into Products VALUES (1010, 'Geo Multi-Use Table', 40, 'geomulti-use-table-1.jpg');
+insert into Products VALUES (1011, 'Hayman Coffee Table', 99, 'hayman-coffee-table-1.jpg');
+insert into products VALUES (1012, 'Studio Coffee Table', 129, 'studio-coffee-table-1.jpg');
+insert into Products VALUES (1013, 'Lynx Small Wide Bookcase', 59, 'lynx-small-wide-bookcase-1,jpg');
+insert into products VALUES (1014, 'Coda 2 Drawer Insert', 59, 'coda-2-drawer-insert-1.jpg');
+insert into Products VALUES (1015, 'Alpine 2 Door Wardrobe', 99, 'alpine-2-door-wardrobe-1.jpg');
+INSERT INTO products VALUES (1016, 'Home 2 Door Wardrobe', 459, 'home-2-door-wardrobe-1.jpg');
+insert into Products VALUES (1017, 'Galaxy Cheval Mirror', 59, 'galaxy-cheval-mirror-1.jpg');
+INSERT into Products VALUES (1018, 'Oliver Rug', 79, 'oliver-rug-1.jpg');
+insert into Products VALUES (1019, 'Mackenzie Table Lamp', 49, 'mackenzie-table-lamp-1.jpg');
+insert into Products VALUES (2000, 'Maine 2 Shelf Storage Rack', 35, 'maine-2-shelf-storage-rack-1.jpg');

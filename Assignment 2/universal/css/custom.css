@@ -1,0 +1,95 @@
+/** Your theme modifications here **/
+/* :: 9.0 Product Sidebar Area CSS */
+@import url(../css/jquery-ui.min.css);
+
+.widget {
+  position: relative;
+  z-index: 1; }
+  .widget .widget-title {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #242424; }
+  .widget .catagories-menu li a {
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 15px 0 15px 20px;
+    display: block;
+    font-weight: 400;
+    color: #959595; }
+    .widget .catagories-menu li a:hover, .widget .catagories-menu li a:focus {
+      color: #fbb710; }
+  .widget .catagories-menu li.active a {
+    color: #fbb710; }
+  .widget.price .slider-range-price {
+    background-color: #c7d2d8 !important;
+    height: 2px;
+    border: none; }
+  .widget.price .ui-slider-handle {
+    background-color: #fff;
+    top: -7px;
+    width: 14px; /* width and height changed from 18px to 14px by Shang */
+    height: 14px;
+    margin: 0;
+    border: 2px solid #fbb710;
+    border-radius: 50%; }
+  .widget.price .ui-slider-range.ui-corner-all.ui-widget-header {
+    background-color: #fbb710; }
+  .widget.price .ui-slider-horizontal {
+    height: 2px;
+    background-color: #fbb710; }
+  .widget.price .range-price {
+    font-size: 14px; /* changed from 16px to 14 by Shang */
+    font-weight: 400;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #959595; }
+	
+	/*
+  .widget.color .widget-desc ul {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .widget.color .widget-desc ul li {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      width: 25%;
+      margin-bottom: 15px; }
+      .widget.color .widget-desc ul li a {
+        width: 30px;
+        height: 30px;
+        display: block;
+        border-radius: 50%;
+        background-color: #ffffff;
+        position: relative;
+        z-index: 1;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+        .widget.color .widget-desc ul li a.color1 {
+          background-color: #ffffff; }
+        .widget.color .widget-desc ul li a.color2 {
+          background-color: #969696; }
+        .widget.color .widget-desc ul li a.color3 {
+          background-color: #030303; }
+        .widget.color .widget-desc ul li a.color4 {
+          background-color: #0315ff; }
+        .widget.color .widget-desc ul li a.color5 {
+          background-color: #dc0647; }
+        .widget.color .widget-desc ul li a.color6 {
+          background-color: #fff56a; }
+        .widget.color .widget-desc ul li a.color7 {
+          background-color: #f26e51; }
+        .widget.color .widget-desc ul li a.color8 {
+          background-color: #9a8777; }
+  .widget.brands .form-check {
+    margin-bottom: 25px; }
+    .widget.brands .form-check label {
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms;
+      font-size: 16px;
+      color: #959595;
+      font-weight: 400;
+      cursor: pointer; }
+      .widget.brands .form-check label:hover {
+        color: #fbb710; }
+    .widget.brands .form-check:last-child {
+      margin-bottom: 0; }
+	  */

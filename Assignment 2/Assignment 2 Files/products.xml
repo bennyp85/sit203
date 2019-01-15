@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PRODUCTS>
+	<FURNITURE>
+		<CHAIR id = "1001">
+			<NAME>Emma Tub Armchair</NAME>
+			<PRICE>170</PRICE>
+			<DETAILS>The Emma Armchair is sure to be your chair of choice in any room.
+					The fabric-upholstered seat has been covered with delicate linen fabric and filled with 17cm thick foam cushioning for extra comfort.
+			</DETAILS>
+			<MATERIAL>Linen fabic, Wood</MATERIAL>
+			<IMAGE1>emma-tub-armchair-2.jpg</IMAGE1>
+			<IMAGE2>emma-tub-armchair-1.jpg</IMAGE2>
+			<BRAND>Universal</BRAND>
+			<CARE>Its solid rubberwood legs feature a contemporary criss-cross design for stability.</CARE>
+		</CHAIR>
+		<CHAIR id = "1002">
+			<NAME>Spencer Swivel Chair</NAME>
+			<PRICE>199</PRICE>
+			<DETAILS>Add a touch of cutting edge style to your living room with the Spencer Swivel Chair.
+					Stylishly upholstered in smart polyurethane with button-back detailing,
+					the modern European design will add a contemporary flourish to any home.
+			</DETAILS>
+			<MATERIAL>Linen fabic, Wood</MATERIAL>
+			<IMAGE1>spencer-swivel-chair-2.jpg</IMAGE1>
+			<IMAGE2>spencer-swivel-chair-1.jpg</IMAGE2>
+			<BRAND>Ikea</BRAND>
+			<CARE>The slim metal base and armless design makes this compact statement chair a great space saver and the padded seat and back provide generous comfort.</CARE>
+		</CHAIR>
+		<CHAIR  id = "1003">
+			<NAME>Carter Tub Chair</NAME>
+			<PRICE>169</PRICE>
+			<DETAILS>With a deep back and sides and a smooth, rounded design, this smart chair will cocoon you while you sit or curl up.
+			         Stylish and comfortable, the Carter Chair makes a great occasional chair for the home or office.
+			</DETAILS>
+			<MATERIAL>Linen fabic, Wood</MATERIAL>
+			<IMAGE1>carter-tub-chair-2.jpg</IMAGE1>
+			<IMAGE2>carter-tub-chair-1.jpg</IMAGE2>
+			<BRAND>The Factory</BRAND>
+			<CARE>Generously padded for comfort, this chair is upholstered in easy-to-clean polyurethane – great for busy households and work reception areas.</CARE>
+		</CHAIR>
+		<CHAIR  id = "1004">
+			<NAME>Jazz Armchair</NAME>
+			<PRICE>349</PRICE>
+			<DETAILS>Jazz up your lounge room with the fabulous Jazz Armchair, featuring an ultra trendy design with streamlined arms, timber legs and plump seats.
+					 Stitched and pulled-in back cushions give this sofa a designer flair.
+			</DETAILS>
+			<MATERIAL>Linen fabic, Wood</MATERIAL>
+			<IMAGE1>jazz-armchair-2.jpg</IMAGE1>
+			<IMAGE2>jazz-armchair-1.jpg</IMAGE2>
+			<BRAND>Fantastic</BRAND>
+			<CARE>Deep seats with black cat webbing, provide the ultimate in comfort while the ergonomic design ensures your get the support you need while you relax in style.</CARE>
+		</CHAIR>
+		<BED id = "1005">
+			<NAME>Gecko Single Bed Trundle</NAME>
+			<PRICE>69</PRICE>
+			<DETAILS>Make the most of your space and manage sleepovers without the hassle.
+					The super-convenient Gecko Trundle is built from strong tubular steel and powder coated for superior chip resistance.
+					Lockable wheels allow you to simply roll out the trundle when needed and store back under the bed when not in use. (Mattress Not Included)
+			</DETAILS>
+			<MATERIAL>Steel</MATERIAL>
+			<IMAGE1>gecko-single-bed-trundle-1.jpg</IMAGE1>
+			<IMAGE2>gecko-single-bed-trundle-2.jpg</IMAGE2>
+			<BRAND>Universal</BRAND>
+			<CARE>Featuring a solid steel tube frame and locakable wheels for stability this trundle has been built to last.</CARE>
+		</BED>
+		<BED id = "1006">
+			<NAME>Bingo Single Bed</NAME>
+			<PRICE>69</PRICE>
+			<DETAILS>Bingo! You've found the best value bed in town. With a metal frame and a straightforward design this bed has sturdy contruction,
+					is easy to decorate and has plenty of storage space underneath.
+			</DETAILS>
+			<MATERIAL>Steel</MATERIAL>
+			<IMAGE1>bingo-single-bed-1.jpg</IMAGE1>
+			<IMAGE2>bingo-single-bed-2.jpg</IMAGE2>
+			<BRAND>Ikea</BRAND>
+			<CARE>The matte black frame is easy to coordinate with a wide range of bed linen.</CARE>
+		</BED>
+		<BED id = "1007">
+			<NAME>Zac Single Bed</NAME>
+			<PRICE>99</PRICE>
+			<DETAILS>The Zac single bed combines solid pine and metal dowels to create a bed with a versatile,
+					 light look. (Mattress not included).
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>zac-single-bed-2.jpg</IMAGE1>
+			<IMAGE2>zac-single-bed-1.jpg</IMAGE2>
+			<BRAND>Fantastic</BRAND>
+			<CARE>A 5 stage staining and lacquering process done by hand, results in a rich and durable finish that wears, knocks and scratches well. Variations in the wood are to be expected.</CARE>
+		</BED>
+		<BED id = "1008">
+			<NAME>My First Toddler Bed</NAME>
+			<PRICE>129</PRICE>
+			<DETAILS>Set low to the ground for easy access, little ones will feel so grown-up when they climb into bed all by themselves with this fabulous first bed.
+					 High sides provide comfort and security so toddlers can sleep soundly all night long.
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>my-first-toddler-bed-2.jpg</IMAGE1>
+			<IMAGE2>my-first-toddler-bed-1.jpg</IMAGE2>
+			<BRAND>Artdeco</BRAND>
+			<CARE>Finished in a stylish light oak and white, the look is smart and contemporary and suits both boys and girls rooms alike.</CARE>
+		</BED>
+		<TABLE id = "1009">
+			<NAME>Host Tray Table</NAME>
+			<PRICE>29</PRICE>
+			<DETAILS>This handy tray table folds flat and stores neatly out of the way when not in use,
+					 making a great space saving furniture choice for occasional use.
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>host-tray-table-2.jpg</IMAGE1>
+			<IMAGE2>host-tray-table-1.jpg</IMAGE2>
+			<BRAND>Universal</BRAND>
+			<CARE>This tidy table makes entertaining and TV dinners quick and easy.</CARE>
+		</TABLE>
+		<TABLE id = "1010">
+			<NAME>Geo Multi-Use Table</NAME>
+			<PRICE>40</PRICE>
+			<DETAILS>For a handy coffee table or TV stand with storage,
+			         check out the versatile Geo Multi-Use table.
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>geomulti-use-table-1.jpg</IMAGE1>
+			<IMAGE2>geomulti-use-table-2.jpg</IMAGE2>
+			<BRAND>Ikea</BRAND>
+			<CARE>This utility table is great for everyday use thanks to its hardwearing melamine top.</CARE>
+		</TABLE>
+		<TABLE id = "1011">
+			<NAME>Hayman Coffee Table</NAME>
+			<PRICE>99</PRICE>
+			<DETAILS>Add a relaxed vibe to your lounge room with this smart white Hayman Coffee Table. Featuring slatted sides and a slimline design,
+					 this versatile coffee table will add a laid-back coastal look to your home.
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>hayman-coffee-table-2.jpg</IMAGE1>
+			<IMAGE2>hayman-coffee-table-1.jpg</IMAGE2>
+			<BRAND>Fantastic</BRAND>
+			<CARE>A generously sized top and shelf underneath gives plenty of room to store reading material and keep remotes to hand.</CARE>
+		</TABLE>
+		<TABLE id = "1012">
+			<NAME>Studio Coffee Table </NAME>
+			<PRICE>129</PRICE>
+			<DETAILS>Featuring a combination of timber look panels and a black metal frame, this smart coffee table will add a touch of industrial style to your home.
+					 A warm wood foil finish gives a realistic timber look for a great price.
+			</DETAILS>
+			<MATERIAL>Wood, Steel</MATERIAL>
+			<IMAGE1>studio-coffee-table-2.jpg</IMAGE1>
+			<IMAGE2>studio-coffee-table-1.jpg</IMAGE2>
+			<BRAND>The Factory</BRAND>
+			<CARE>The quality foil and metal materials provide a strong, hardwearing surface for long-lasting use, backed by a three-year warranty.</CARE>
+		</TABLE>
+		<STORAGE id = "1013">
+			<NAME>Lynx Small Wide Bookcase</NAME>
+			<PRICE>59</PRICE>
+			<DETAILS>Adjustable shelves allow you to display items of different heights.
+				     Create a stylish cabinet and prevent dust build up by adding two glass doors.
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>lynx-small-wide-bookcase-1.jpg</IMAGE1>
+			<IMAGE2>lynx-small-wide-bookcase-2.jpg</IMAGE2>
+			<BRAND>Universal</BRAND>
+			<CARE>The quality foil and metal materials provide a strong, hardwearing surface for long-lasting use, backed by a three-year warranty.</CARE>
+		</STORAGE>
+		<STORAGE id = "1014">
+			<NAME>Coda 2 Drawer Insert</NAME>
+			<PRICE>59</PRICE>
+			<DETAILS>This handy 2-drawer unit provides great additional storage where you need it most. Use as a shelf insert with the Coda 6 and 10 Shelf bookcase,
+			         as a wardrobe insert or as a free-standing drawer unit for your desk or shelf to keep paperwork and stationery neatly stored away.
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>coda-2-drawer-insert-2.jpg</IMAGE1>
+			<IMAGE2>coda-2-drawer-insert-1.jpg</IMAGE2>
+			<BRAND>Ikea</BRAND>
+			<CARE>The quality foil and metal materials provide a strong, hardwearing surface for long-lasting use, backed by a three-year warranty.</CARE>
+		</STORAGE>
+		<STORAGE id = "1015">
+			<NAME>Alpine 2 Door Wardobe</NAME>
+			<PRICE>99</PRICE>
+			<DETAILS>The sleek look and incredible price of this robe make it a smart buy. With plenty of hanging space it's an ideal storage solution in the in the spareroom or kids room.
+					 Hanging rail is included.
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>alpine-2-door-wardobe-2.jpg</IMAGE1>
+			<IMAGE2>alpine-2-door-wardobe-1.jpg</IMAGE2>
+			<BRAND>Ikea</BRAND>
+			<CARE>Sleek, silver coloured handles and a smart brown-black finish give a stylish, contemporary look.</CARE>
+		</STORAGE>
+		<STORAGE id = "1016">
+			<NAME>Home 2 Door Wardrobe</NAME>
+			<PRICE>459</PRICE>
+			<DETAILS>Get the look and convenience of a built-in wardrobes without the need to commit to expensive home renovations.
+					 The freestanding 120 cm Home Robe features two aluminium framed sliding doors, a fixed top shelf, and a strong hanging rail.
+					 Cheating has never been easier with this no fuss solution.
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>home-2-door-wardrobe-1.jpg</IMAGE1>
+			<IMAGE2>home-2-door-wardrobe-2.jpg</IMAGE2>
+			<BRAND>Artdeco</BRAND>
+			<CARE>Shock-absorbing bumper strips reduce noise and impact when opening and closing the doors.</CARE>
+		</STORAGE>
+	</FURNITURE>
+	<ACCESSORIES>
+		<HOMEDECO id = "1017">
+			<NAME>Galaxy Cheval Mirror</NAME>
+			<PRICE>59</PRICE>
+			<DETAILS>Take a good long look at yourself and throw some light around your bedroom with this sleek,
+					 modern cheval mirror.
+			</DETAILS>
+			<MATERIAL>Glass, Metal</MATERIAL>
+			<IMAGE1>galaxy-cheval-mirror-1.jpg</IMAGE1>
+			<IMAGE2>galaxy-cheval-mirror-2.jpg</IMAGE2>
+			<BRAND>Universal</BRAND>
+			<CARE>Available in a range of colours.</CARE>
+		</HOMEDECO>
+		<RUG id = "1018">
+			<NAME>Oliver Rug</NAME>
+			<PRICE>79</PRICE>
+			<DETAILS>Refresh your space with the tribal energy of a pure cotton rug that has been
+					 stonewashed for an authentic vintage look.
+			</DETAILS>
+			<MATERIAL>Cotton</MATERIAL>
+			<IMAGE1>oliver-rug-1.jpg</IMAGE1>
+			<IMAGE2>oliver-rug-2.jpg</IMAGE2>
+			<BRAND>Artdeco</BRAND>
+			<CARE>Hand woven for a lighter weight flatweave, this black and natural white rug is easy to style and features a low profile to fit under doors.</CARE>
+		</RUG>
+		<LIGHTING id = "1019">
+			<NAME>Mackenzie Table Lamp</NAME>
+			<PRICE>49</PRICE>
+			<DETAILS>Perfect for the home office or bedroom, this stylish angle poise lamp features a contemporary design in a combination of metal and wood for a funky look.
+					 Choose from a black or white finish to suit your interior.
+			</DETAILS>
+			<MATERIAL>Plastic, Metal</MATERIAL>
+			<IMAGE1>mackenzie-table-lamp-1.jpg</IMAGE1>
+			<IMAGE2>mackenzie-table-lamp-2.jpg</IMAGE2>
+			<BRAND>The Factory</BRAND>
+			<CARE>Fully assembled, this lamp is packed in one box so you can take it home and use it straight away.</CARE>
+		</LIGHTING>
+		<PLANTSTAND id = "1020">
+			<NAME>Maine 2 Shelf Storage Rack</NAME>
+			<PRICE>35</PRICE>
+			<DETAILS>The Maine 2 Tier Shelving Bench makes storage simple with its charming white painted finish.
+					 The unit has 2 wide shelves, great for multipurpose storage in the bathroom or even as a shoe rack.
+			</DETAILS>
+			<MATERIAL>Wood</MATERIAL>
+			<IMAGE1>maine-2-shelf-storage-rack-2.jpg</IMAGE1>
+			<IMAGE2>maine-2-shelf-storage-rack-1.jpg</IMAGE2>
+			<BRAND>Artdeco</BRAND>
+			<CARE>The Maine 2 Tier Shelving Bench measures 63cm long, 37cm wide and 53cm tall.</CARE>
+		</PLANTSTAND>
+	</ACCESSORIES>
+</PRODUCTS>

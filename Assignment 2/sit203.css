@@ -1,0 +1,30 @@
+ BODY {
+	BACKGROUND-COLOR: #f0ffff;
+	COLOR: #000080;
+	FONT: 75% verdana,arial,helvetica;
+	MARGIN: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 5px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 5px
+}
+
+table.archive
+{ 
+FONT: 100% verdana,arial,helvetica;
+ }
+ 
+h2  {
+	color:#3333cc
+}
+h3  {
+	color:#006699
+}
+h4  {
+	color:#9900ff
+}
+
+p  {
+    text-align:left;margin-left:15px;padding-left:0px
+	}
+p.red-indented { text-align:left;margin-left:35px;font-family:"Courier New";color:#ff0000 }

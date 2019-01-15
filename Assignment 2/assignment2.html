@@ -1,0 +1,169 @@
+<!doctype html public "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>SIT203 Assignment 2</title>
+<meta name="keywords" content="web site development, Javascript, PHP, Ajax and Oracle">
+<meta name="description" content="Assignment 2">
+<meta name="rating" content="General">
+<meta name="revisit-after" content="30 days">
+<meta name="objecttype" content="Homepage">
+<meta http-equiv="creation_date" content="Tuesday, 14 August 2018">
+<meta http-equiv="reply-to" content="shang@deakin.edu.au">
+<meta http-equiv="resource-type" content="document">
+<meta http-equiv="distribution" content="global">
+<meta http-equiv="copyright" content="Shang Gao - 2018">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link href="sit203.css" rel="stylesheet" type="text/css">
+<style>
+.strike {
+    text-decoration: line-through;
+	color:red;
+}
+</style>
+
+</head>
+<body>
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+<h2>Assignment 2: Implementing a dynamic web site</h2>
+<p><STRONG>Due: 9:00am <span class="strike">Friday 21<sup>st</sup></span> Monday 24<sup>th</sup> September 2018
+   <BR>
+</STRONG></p>
+
+<h3>Introduction</h3>
+<p>You are to apply all the Web technologies (DOM, XML, Ajax, PHP, Oracle, etc.) 
+learnt from lectures and practicals to make the site that you created in 
+<a href="assignment1.html">Assignment One</a> <em>fully functional</em>. That is, </p>
+<ul>
+<li>To validate the <em><strong>checkout form</strong></em> using Ajax and PHP <b>on server side</b>. 
+User's input is validated on the fly. If error is found, appropriate information is displayed.   </li>
+</ul>
+<ul type="disc">
+ <ul type="circle">
+    <li>All required fields should be checked for completion, and all data  
+	that are entered should be checked for 'correctness'. For example,  
+	buyer contact details (name, phone number, email  address, etc.), 
+	delivery address (unit number/street name, city, postal code,  etc.), delivery method selected 
+	and payment methods (credit card number, expiry date, card holder name,  CVV, etc.) 
+	are fields expected in the checkout form to be validated.<br /><br /></li>
+    <li>Regular expression is recommended (NOT compulsory) for pattern matching in PHP. <br /><br />
+    </li>
+	<li>You decide what validation is required and how the validation is  performed. For instance,
+    </li>
+ </ul>
+ 
+ <ul type="disc">
+  <ul type="circle">
+    <li>the <em>required</em> fields checked for completion </li>
+    <li>the fields checked for a specific length, numeric data or a predetermined format 
+	</li>
+    <li>the messages provided help the user fix the 'problem'</li>
+  </ul>
+</ul>
+
+ 
+</ul>
+<ul>
+<li>To develop the system to respond to the forms by accessing your products/services XML files, 
+querying your <b>Oracle</b> database, generating contents, and adding information to the database. 
+Your PHP code needs  to be used to enable</li>
+</ul>
+<ul type="disc">
+  <ul type="circle">
+    <li>search sugguestions: a suggest/autocomplete box similar to Google Suggest,  
+	where a user gets suggested products/sevices while typing in the search form. <br>
+      <br>
+    Example: User is typing a brand/product name:
+    <p class="red-indented">  Emma    </p>
+      <p>Suggestions which would be displayed:</p>
+      <p class="red-indented"> Emma Tub Armchair<br>
+      </p>
+	  
+	  <!--If user selects one suggestion, the corresponding detail page is loaded. -->
+    </li>
+	
+  </ul>
+</ul>
+
+<ul type="disc">
+  <ul type="circle">
+    <li>search function: the <em><strong>search form</strong></em> responds to user's input 
+	with retrieved information from server side (using xml or database). When user clicks on "search" button, 
+	a search result page is loaded. If a product link is clicked from suggestion list or result page, user is led to the product detail page, where user can add the product to a shopping cart. <br> <br>
+    </li>
+    <li>shopping cart: it allows a user to   place items in the  cart and  calculates 
+	a total for the order, including shipping and   handling (i.e. postage and packing) 
+	charges and the associated taxes (e.g. GST), as   applicable upon checkout. 
+	After checkout, all the data from the completed form will be inserted into the relevant table. 
+	A  receipt page confirming the order that has been made should be displayed or in  the event of an error, 
+	an appropriate error message should be shown to the  user. <br>
+   
+    </li>
+  </ul>
+    
+</ul>
+<ul>
+<li>To implement the &quot;login&quot; and &quot;register&quot; function on your website.<br> <br></li>
+
+<ul>
+  <!-- <li>Once logged on, on &quot;my orders&quot; page, a user can view his last three months' order(s)  if any.<br /><br /></li> -->
+  <li>When a new user makes an order, a new account/username and a temporary password will be created automatically after order confirmation. User's personal details will be saved in database under the created account/username.<br /><br /></li>
+  <li>Once logged on, on &quot;my account&quot; page, a user can change password and edit personal details.<br /><br /></li>
+  <li>Once logged on, user's registered name should be displayed at a proper location on the pages accordingly.<br /><br /></li>
+  <li>When a logged on user makes an order, the shipping details in the checkout form 
+  can be auto-filled directly with the information collected on  &quot;my account&quot; page. The details should be editable. </li>
+  
+</ul>
+
+</ul>
+
+  <p>&nbsp;</p>
+<p style="margin-left:40px;margin-right:40px;text-align:center;font-weight:bold;color:#990066;">
+You are permitted to change the pages provided by the templates  
+if you believe that they can be improved for the purposes of this assignment.</strong> 
+However before receiving your assignment 1  mark, please do not modify the orignial html pages. 
+Copy them to another folder and then copy them back later  after the assignment 1 mark be finalized.</p>
+
+<h3>Requirements</h3>
+<p>General requirements include:</p>
+
+<ul>
+  <li><em>Well  developed and structured  PHP code.</em> Write functions to re-use code for common  tasks. 
+  The code should be clear and properly indented; use meaningful variable  names; and be free of errors. </li>
+</ul>
+
+<ul>
+  <li><em>Well documented code.</em> Appropriate and consistent comments should be placed throughout the  code. 
+  The comments should be sufficiently detailed to allow an assessor 
+  to understand  what it is doing without having to spend too much time on your code.</li>
+</ul>
+
+<h3>Suggested progress</h3>
+<p>The workload of this assignment is extremely <span style="color:red"><b>heavy</b></span>. You are highly recommended to start it as early as possible. 
+It is suggested that:
+<ul>
+  <li>By the end of week 7, you'd better have completed checkout form validation.</li>
+  <li>By the end of week 8, you'd better have completed search suggestion, search function and shopping cart. </li>
+  <li>By the end of week 9, you'd better have completed register and login relevant functions.</li>
+  <li>In week 10, wrap up.</li>
+</ul>
+</p>
+
+<h3><a name="submit"></a></h3>
+<h3>Submission</h3>
+<p>The Assignment Two is worth <strong>50%</strong> of the overall assessment for this unit. 
+Your submissions MUST use the Dropbox  that will be placed on CloudDeakin. Please follow the instructions 
+to submit your assignment on clouddeakin. Your website created for SIT203 assignments must be hosted by Deakin Web server
+(http://www.deakin.edu.au/). <b>A website hosted by a 3rd party server will not be accepted. Email submission will not be accepted.</b></p>
+
+<p>Your assignment will be marked after the due date and the assignment result (with comments) will be sent back to you.</p>
+<h3>Extension</h3>
+<p>If you wish to apply for an extension, please contact your campus lecturer AT LEAST TWO DAYS before the due date;  
+also attach what you have done. LAST MINUTE EXTENSION REQUEST WILL NOT BE GRANTED. 
+The teaching staff will then make a judgement  as to whether an extension shall be granted.</p>
+
+<div align="center">
+
+  <hr width="60%" size="8">
+</div>
+</body>
+</html>
